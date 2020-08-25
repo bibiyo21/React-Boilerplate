@@ -1,7 +1,9 @@
 # Simple React Boilerplate
 ###### Created by Ibrahem Sotejo
+##### A simple React boilerplate using Webpack to jumpstart your React Development 
 
-Run this every time to freshly installed node modaules  
+
+Run this every time to freshly installed node modules  
 
 ```
 npm run install-modules
