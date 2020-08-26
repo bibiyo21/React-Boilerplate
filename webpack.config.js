@@ -55,11 +55,12 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-          filename: "bundle.css"
+          filename: "main.bundle.css"
         })
     ],
     output: {
         filename: "main.bundle.js",
         path: path.resolve(__dirname, 'dist'),
+        publicPath: '/',
     }
 };
